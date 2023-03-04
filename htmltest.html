@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML Test</title>
+    <link rel="stylesheet" href="teststyle.css">
+
+</head>
+
+
+<body>
+<div>
+    <h1 style="color:yellow">This is a header</h1>
+    <p title="there is a <br> tag in between Hello and World">Hello <br> World</p>
+    <a href="https://www.w3schools.com/html/html_attributes.asp">Learn about HTML Attributes</a>
+</div>
+<article class="login">
+    <h2>Login</h2>
+<!--    this normally sends the info to a serverside handler, but I don't have one of those so JS for now-->
+    <form action="javascript:submit()">
+        <label for="uname">Username</label><br>
+        <input type="text" id="uname" name="uname"><br>
+        <label for="pwd">Password</label><br>
+        <input type="password" id="pwd" name="pwd"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <script src="/javascript/loginJS.js"></script>
+</article>
+
+
+<hr>
+<div>
+    <h1>This is the same header</h1>
+    <img src="Images/TestImage.png" title="Repository Class code">
+</div>
+<hr>
+<div>
+    <pre>
+        Arrowheads confirmed!
+        Summon condition is at least one level/link/rank 2 monster!
+        Circuit combine!
+        <span id="link">Link Summon!</span> Appear! Link 2! <span style="color:red">Spright Elf!</span>
+
+        <img src="https://ms.yugipedia.com//6/68/SprightElf-MADU-EN-VG-artwork.png">
+    </pre>
+    <pre>
+        Saint of virtue, become one with the red brand!
+        And bring forth salvation!
+        <span id="fusion">Fusion Summon!</span>
+        Appear! Level 8! <span style="background-color:rgb(149, 9, 149)">Granguignol the Dusk Dragon</span>!
+
+        <img src="https://ms.yugipedia.com//thumb/5/57/GranguignoltheDuskDragon-OW.png/1024px-GranguignoltheDuskDragon-OW.png">
+    </pre>
+</div>
+</body>
+</html>
+
