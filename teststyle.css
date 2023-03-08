@@ -1,11 +1,18 @@
 body {background-color: rgb(60, 60, 60); color:white;}
 pre{text-align: center}
 h1{color:lime}
-p.border_test{border-style:dotted solid dashed double; border-width: 4px; padding: 5px 10px; box-sizing: border-box;}
+p.border_test{border-style:dotted solid dashed double; border-width: 4px; padding: 5px 10px; box-sizing: border-box;
+outline: thick solid pink}
+
+a:link{text-decoration: none;}
+a:visited{color: lime; text-decoration: none;}
+a:hover{text-decoration: underline;}
+a:active{text-decoration: underline;}
+
 img{height:400px; width;400px;}
 .login{padding: 5px; background-color: lightgray; color: black}
-#fusion{color:rgb(196, 20, 196)}
+#fusion{background-color:rgb(149, 9, 149); color: white}
 #synchro{background-color:rgb(63, 255, 63); color:white}
 #xyz{background-color:black; color:yellow}
 #pend{background-color:rgb(41, 164, 41); color:red}
-#link{color:rgb(0, 60, 255)}
+#link{background-color:rgb(0, 60, 255); color:red}
